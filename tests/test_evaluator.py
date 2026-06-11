@@ -1,3 +1,11 @@
+from pathlib import Path
+import sys
+
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
 from src.audio_analysis import analyze_transcript_delivery
 from src.evaluator import evaluate_answer
 from src.speech_to_text import analyze_recording_quality, estimate_wav_duration

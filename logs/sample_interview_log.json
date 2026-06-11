@@ -1,0 +1,16 @@
+{
+  "project": "VoiceHire-NLP",
+  "role": "Python Developer",
+  "note": "Sample only. Generate logs/interview_log.json from a real 10-question demo session.",
+  "turns": [
+    {
+      "turn_number": 1,
+      "question": "Tell me about your experience relevant to the Python Developer role.",
+      "answer": "Python supports OOP with classes, inheritance, polymorphism, APIs, and database access.",
+      "evaluation_summary": {
+        "total_score": 35,
+        "lab_concepts": ["BoW", "TF-IDF", "N-Gram", "POS", "NER"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+Generate a final report with overall score, strengths, weaknesses, NLP analysis, communication analysis, suggested topics, and failure analysis.
+Explicitly mention BoW, TF-IDF, N-Gram, POS, and NER lab concepts.

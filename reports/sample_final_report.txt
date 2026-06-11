@@ -1,0 +1,16 @@
+# VOICEHIRE FINAL REPORT
+
+## Overall Score
+Sample only. Generate reports/final_report.txt after a complete 10-question session.
+
+## NLP Analysis
+- Keyword Coverage (BoW Lab): shown per answer
+- TF-IDF Important Concepts: extracted from transcripts
+- Fluency Score (N-Gram Lab): repetition and phrase diversity
+- POS Structure Labels: balanced, noun-heavy, verb-heavy, or too short
+- Named Entities (NER Lab): technologies, companies, and skills
+
+## Failure Analysis
+- Subjective scoring can over-reward keyword-heavy weak answers.
+- Whisper transcription errors can affect relevance and keyword coverage.
+- Confidence scoring is approximate because delivery quality is subjective.
